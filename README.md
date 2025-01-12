@@ -1,5 +1,7 @@
-![we](https://github.com/user-attachments/assets/57b9c030-6e8f-4b56-a989-6ec972f7aeca)
-Gameplay Preview: https://youtu.be/jlBEmCCY-iM
+
+Webgl Build itch.io sitesine  oynama hazır halde yüklenmiştir
+https://ekinsuoguz-ceng.itch.io/bakircay-2024-gd-210601691
+
 
 Bu proje, temel oyun mekaniği ve fizik sistemlerini öğrenmeyi amaçlayan bir etkileşimli 3D uygulamadır. Proje, oyuncuların sahnede yer alan nesneleri seçip hareket ettirerek bir hedef alana yerleştirmelerini sağlar.
 
