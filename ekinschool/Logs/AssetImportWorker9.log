@@ -1,0 +1,575 @@
+Unity Editor version:    2022.3.53f1 (df4e529d20d3)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+/Users/safa/Documents/GitHub/bakircay-2024-gd--210601691-/ekinschool
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+56348
+Successfully changed project path to: /Users/safa/Documents/GitHub/bakircay-2024-gd--210601691-/ekinschool
+/Users/safa/Documents/GitHub/bakircay-2024-gd--210601691-/ekinschool
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8625507328]  Target information:
+
+Player connection [8625507328]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 994988952 [EditorId] 994988952 [Version] 1048832 [Id] OSXEditor(0,Mehmets-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8625507328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8625507328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 10 workers.
+Refreshing native plugins compatible for Editor in 12.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.53f1 (df4e529d20d3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/safa/Documents/GitHub/bakircay-2024-gd--210601691-/ekinschool/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56365
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.53f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.53f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Registered in 0.003083 seconds.
+- Loaded All Assemblies, in  0.249 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.213 seconds
+Domain Reload Profiling: 462ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.428 seconds
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 929ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.53f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (363.1 KB). Loaded Objects now: 5887.
+Memory consumption went from 226.6 MB to 226.3 MB.
+Total: 2.965750 ms (FindLiveObjects: 0.152250 ms CreateObjectMapping: 0.059250 ms MarkObjects: 2.548709 ms  DeleteObjects: 0.205500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/SimplePlatform.cs: 303251968c7a3fefe84ae4bd9977cef2 -> 
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/TheGameManager.cs: 42b92bc5671942203059353df89a090e -> 4d13a4344d78045d4a20a77f0c3bd0f0
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: b36e49b25694f53d06c6b260c50cdc3f -> 7f81e4855d9dc360c2aca871534bba97
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 145cdb27b02411228b482d69f9753106 -> b99ed144057967b24af2a1dfafe1b079
+  custom:scripting/monoscript/fileName/DraggableObject.cs: 94fbb00912c89a82dee5df0a2e4572cc -> 7b20889522f0c0ca9b558cb307ac365e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x329407000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 1320ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (344.3 KB). Loaded Objects now: 5889.
+Memory consumption went from 205.4 MB to 205.1 MB.
+Total: 3.151084 ms (FindLiveObjects: 0.270959 ms CreateObjectMapping: 0.069542 ms MarkObjects: 2.687041 ms  DeleteObjects: 0.122750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/SimplePlatform.cs: 303251968c7a3fefe84ae4bd9977cef2 -> 
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/TheGameManager.cs: 42b92bc5671942203059353df89a090e -> 4d13a4344d78045d4a20a77f0c3bd0f0
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: b36e49b25694f53d06c6b260c50cdc3f -> 7f81e4855d9dc360c2aca871534bba97
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 145cdb27b02411228b482d69f9753106 -> b99ed144057967b24af2a1dfafe1b079
+  custom:scripting/monoscript/fileName/DraggableObject.cs: 94fbb00912c89a82dee5df0a2e4572cc -> 7b20889522f0c0ca9b558cb307ac365e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x329a47000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.039 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1039ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (344.5 KB). Loaded Objects now: 5891.
+Memory consumption went from 213.6 MB to 213.3 MB.
+Total: 3.033417 ms (FindLiveObjects: 0.206542 ms CreateObjectMapping: 0.062625 ms MarkObjects: 2.597334 ms  DeleteObjects: 0.166292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/SimplePlatform.cs: 303251968c7a3fefe84ae4bd9977cef2 -> 
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/TheGameManager.cs: 42b92bc5671942203059353df89a090e -> 4d13a4344d78045d4a20a77f0c3bd0f0
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: b36e49b25694f53d06c6b260c50cdc3f -> 7f81e4855d9dc360c2aca871534bba97
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 145cdb27b02411228b482d69f9753106 -> b99ed144057967b24af2a1dfafe1b079
+  custom:scripting/monoscript/fileName/DraggableObject.cs: 94fbb00912c89a82dee5df0a2e4572cc -> 7b20889522f0c0ca9b558cb307ac365e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16d92b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.352 seconds
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.133 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1133ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (344.4 KB). Loaded Objects now: 5893.
+Memory consumption went from 221.9 MB to 221.5 MB.
+Total: 2.914000 ms (FindLiveObjects: 0.207958 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.504292 ms  DeleteObjects: 0.136584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/SimplePlatform.cs: 303251968c7a3fefe84ae4bd9977cef2 -> 
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/TheGameManager.cs: 42b92bc5671942203059353df89a090e -> 4d13a4344d78045d4a20a77f0c3bd0f0
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: b36e49b25694f53d06c6b260c50cdc3f -> 7f81e4855d9dc360c2aca871534bba97
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 145cdb27b02411228b482d69f9753106 -> b99ed144057967b24af2a1dfafe1b079
+  custom:scripting/monoscript/fileName/DraggableObject.cs: 94fbb00912c89a82dee5df0a2e4572cc -> 7b20889522f0c0ca9b558cb307ac365e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x17f7c7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.330 seconds
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.127 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (176ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (344.5 KB). Loaded Objects now: 5895.
+Memory consumption went from 230.1 MB to 229.8 MB.
+Total: 2.990333 ms (FindLiveObjects: 0.196875 ms CreateObjectMapping: 0.061750 ms MarkObjects: 2.579167 ms  DeleteObjects: 0.152000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 0757069e7af3ba4444d0d25cf7f1aee1 -> 14132385ef0a62dc85f08de4f5687ece
+  custom:scripting/monoscript/fileName/CFXR_WelcomeScreen.cs: 5eb9ee92d995a38201f6434fb34b524a -> 9c94608da2bdcc5de3ace1327c049746
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 2c0f5b39375fdb3ffea33678dba0f2b1 -> 997a733798b2c803fc88cc92695e7ca4
+  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 0c5bfea224b575e2646313fc42f2e08d -> 85a99159289e64398275fbc6500bb9a8
+  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: a566cd0f556f35f05719aac10415b17c -> f0ef3fb7c5ca7b4517f50c44917fac9e
+  custom:scripting/monoscript/fileName/SimplePlatform.cs: 303251968c7a3fefe84ae4bd9977cef2 -> 
+  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: ace1fbedccc09febe364c5088d60b3b3 -> 6294a85dd8a1718740abd2427d3ed0fe
+  custom:scripting/monoscript/fileName/CFXR_Demo_Rotate.cs: fcad54cf80c113a8573a07edd452f948 -> 558719a58b028e94222b368a7326d6e9
+  custom:scripting/monoscript/fileName/TheGameManager.cs: 42b92bc5671942203059353df89a090e -> 4d13a4344d78045d4a20a77f0c3bd0f0
+  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: f9b5276a4e540080f15d5067545c3777 -> 215820334dc899aa183f0061c3ffd288
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo_Translate.cs: 282d9f9a6ecf0d4a1c6c4f01345e01a1 -> bf3bdd14f5899835d13cb9fe83e767e2
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 954edc24969e7d36de6c6a079a85cb98 -> 3f1f97f09f1dd1cf194149bcb9712660
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/BloomGraphDrawer.cs: 568ae764c377db66faaeb7833d4bccb3 -> 9600e9f64d67dabab17944976945a2fa
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: b36e49b25694f53d06c6b260c50cdc3f -> 7f81e4855d9dc360c2aca871534bba97
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CFXR_Demo.cs: dafb48c744f8f9712e2a19d95bc33b43 -> 2236c91491221800136a918da2fc2861
+  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: 8c6e989bfa7de8931452a3b2acaa3404 -> eee4c4410265e19bfd8b3e2c4c5b2a2d
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 145cdb27b02411228b482d69f9753106 -> b99ed144057967b24af2a1dfafe1b079
+  custom:scripting/monoscript/fileName/DraggableObject.cs: 94fbb00912c89a82dee5df0a2e4572cc -> 7b20889522f0c0ca9b558cb307ac365e
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

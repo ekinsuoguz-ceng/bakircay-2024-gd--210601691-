@@ -1,6 +1,8 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 public class DraggableObject : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class DraggableObject : MonoBehaviour
     private Camera mainCamera;
     public Rigidbody rb;
     private bool isDragging = false;
-    public SimplePlatform _sp;
+    public TheGameManager gameManeger;
     private float elapsedTime = 0;
     public float height = 5f; // Parabolik yüksekliğin miktarı
     private bool isBack;
@@ -19,10 +21,13 @@ public class DraggableObject : MonoBehaviour
 
    
 
+
+
     void Start()
     {
         mainCamera = Camera.main;
         rb = GetComponent<Rigidbody>();
+        gameManeger = TheGameManager.instance;
         fallposition = transform.position;
 
     }
@@ -63,49 +68,47 @@ public class DraggableObject : MonoBehaviour
     {
         if (other.gameObject.name == "Placement Area" )
         {
-            _sp = other.GetComponent<SimplePlatform>();
-            
-            if (_sp.CurrentFruit == null) 
+            if (gameManeger.CurrentFruit == null) 
             {
-                _sp.CurrentFruit = this;
+                gameManeger.CurrentFruit = this;
+                SoundManager.instance.PlayFirstMatch();
             }
             //  puan kazanımı ve düşme kısmı aşağıdaki elseif bloğunda gerçekleşiyor
-            else if (_sp.CurrentFruit != this && _sp.CurrentFruit.FruitName == this.FruitName)
+            else if (gameManeger.CurrentFruit != this && gameManeger.CurrentFruit.FruitName == this.FruitName)
             {
                 rb.isKinematic = false;
                 this.gameObject.layer = 6;
                 // "FallFruit layerina alarak fizksel etkileşim layerları değiştirilmiş oluyor ve
                 // bu sayede deafult layer sahip silindirin içinden onla etkileşim kurmadan düşüyor" 
                 
-                _sp.CurrentFruit.rb.isKinematic = false;
+                gameManeger.CurrentFruit.rb.isKinematic = false;
                 
-                _sp.CurrentFruit.gameObject.layer = 6; // "FallFruit" 
-                _sp.CurrentFruit = null;
-                _sp.Score += 5;
-                _sp.ScoreText.text = "Score:" + _sp.Score;
+                gameManeger.CurrentFruit.gameObject.layer = 6; // "FallFruit" 
+                gameManeger.CurrentFruit = null;
+                gameManeger.Score += 5;
+                gameManeger.ScoreText.text = "Score:" + gameManeger.Score;
                 Partical.gameObject.SetActive(true);
-                
+                SoundManager.instance.PlayRightMatch();
                 // tüm meyveler eşleştirilirse tebrikler paneli açılıyor
-                _sp.FruitsCountsText.text ="Fruit Count: "+ (_sp.Fruits.childCount - 2).ToString();
+                gameManeger.FruitsCountsText.text ="Fruit Count: "+ (gameManeger.Fruits.childCount - 2).ToString();
 
 
             }
             // eşleştirme yanlış ise geri dönmesi için altaki elseif bloğu çalışarak update deki kodu tetikliyor
-            else if (_sp.CurrentFruit != this && _sp.CurrentFruit.FruitName != this.FruitName)
+            else if (gameManeger.CurrentFruit != this && gameManeger.CurrentFruit.FruitName != this.FruitName)
             {
                 isBack = true;
                 rb.isKinematic = true;
+                SoundManager.instance.PlayWrongMatch();
             }
         }
         
         // eşleşmesi yapılmış ve düşmekte olan objelerin hemen altında bulunan obje ile trigger olduklarında sahneden siliniyorlar.
         if (other.transform.name == "Destory Trigger Area")
         {
+          gameManeger.NewFruitsSpawn();
+
             Destroy(this.gameObject);
-            if (_sp.Fruits.childCount <= 1)
-            {
-                _sp.ComplatePanel.SetActive(true);
-            }
         }
         
         /// yanlışlıkla meyve uzay'ın bir yerine fırlatılırsa objenin meyvelerin durdukları yerde beklemeleri sağlanıyor.
@@ -119,9 +122,9 @@ public class DraggableObject : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         // bir sürükle bırakta bi sorun olur ve Placement Area'nın kenarından yanlışlıkla düşerse  current fruit null yapıyor
-        if (_sp.CurrentFruit == this)
+        if (gameManeger.CurrentFruit == this)
         {
-            _sp.CurrentFruit = null;
+            gameManeger.CurrentFruit = null;
         }
     }
 
